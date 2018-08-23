@@ -1,6 +1,6 @@
 # E-commerce 
 
-# You don't need to include any bootstrap or jquery file. I have already add all these.
+### You don't need to include any bootstrap or jquery file. I have already add all these.
 
 # Project Structure
 * `index.html` - Landing Page
