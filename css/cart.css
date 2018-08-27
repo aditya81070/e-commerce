@@ -1,11 +1,15 @@
-@import "compass/css3";
+.main-nav{
+background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);}
+.brand-name{
+  color: white;
+  font-variant: small-caps;
+  font-size: 40px;
+}
 
-/* Global settings */
-$color-border: #eee;
-$color-label: #aaa;
-$font-default: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
-
+.search{
+  background: #345455;
+  color: white;
+}
 
 /* Global "table" column settings */
 .product-image { float: left; width: 20%; }
@@ -45,7 +49,7 @@ $font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
 /* Body/Header stuff */
 body {
   padding: 0px 30px 30px 20px;
-  font-family: $font-default;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
 
@@ -54,7 +58,7 @@ h1 {
 }
 
 label {
-  color: $color-label;
+  color: #aaa;
 }
 
 .shopping-cart {
@@ -67,7 +71,7 @@ label {
   label {
     padding-bottom: 15px;
     margin-bottom: 15px;
-    border-bottom: 1px solid $color-border;
+    border-bottom: 1px solid #eee;
   }
   
   .product-image, .product-details, .product-removal {
@@ -80,7 +84,7 @@ label {
 .product {
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid $color-border;
+  border-bottom: 1px solid #eee;
   
   .product-image {
     text-align: center;
@@ -92,7 +96,7 @@ label {
   .product-details {
     .product-title {
       margin-right: 20px;
-      font-family: $font-bold;
+      font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
     }
     .product-description {
       margin: 5px 20px 5px 0;
@@ -112,7 +116,7 @@ label {
     padding: 4px 8px;
     background-color: #c66;
     color: #fff;
-    font-family: $font-bold;
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
     font-size: 12px;
     border-radius: 3px;
   }
@@ -146,7 +150,7 @@ label {
   }
   
   .totals-item-total {
-    font-family: $font-bold;
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
   }
 }
 
@@ -171,7 +175,7 @@ label {
   .shopping-cart {
     margin: 0;
     padding-top: 20px;
-    border-top: 1px solid $color-border;
+    border-top: 1px solid #eee;
   }
   
   .column-labels {
